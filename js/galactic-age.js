@@ -15,7 +15,7 @@ export class GalacticAge {
     let ageOnEarth = Math.floor(this.ageInSeconds() / 31536000);
     return ageOnEarth;
   }
-
+  
   ageOnMercury(){
     let ageOnMercury = Math.floor((this.ageInSeconds() / 31536000) / .24);
     return ageOnMercury;
@@ -38,7 +38,5 @@ export class GalacticAge {
 
   lifeExpectancy(){
     let planetLifeExpectancy = 0;
-
-
   }
 }

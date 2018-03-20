@@ -21,33 +21,33 @@ $(document).ready(function() {
     $("#jupiterAge").text(newUser.ageOnJupiter());
 
     if(newUser.ageOnMercury() > 85){
-        $("#mercuryLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
+      $("#mercuryLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
     }else{
-        $("#mercuryLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnMercury());
+      $("#mercuryLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnMercury());
     }
 
     if(newUser.ageOnVenus() > 85){
-        $("#venusLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
+      $("#venusLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
     }else{
-        $("#venusLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnVenus());
+      $("#venusLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnVenus());
     }
 
     if(newUser.ageOnEarth() > 85){
-        $("#earthLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
+      $("#earthLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
     }else{
-        $("#earthLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnEarth());
+      $("#earthLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnEarth());
     }
 
     if(newUser.ageOnMars() > 85){
-        $("#marsLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
+      $("#marsLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
     }else{
-        $("#marsLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnMars());
+      $("#marsLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnMars());
     }
 
     if(newUser.ageOnJupiter() > 85){
-        $("#jupiterLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
+      $("#jupiterLifeExpectancy").text("Congratulations! You are the longest living earthling on this planet!");
     }else{
-        $("#jupiterLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnJupiter());
+      $("#jupiterLifeExpectancy").text(newUser.lifeExpectancy - newUser.ageOnJupiter());
     }
 
   });
